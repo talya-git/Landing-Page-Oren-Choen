@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from "react"
 
 const stats = [
-  { value: 31, suffix: "", label: "שנות מצוינות בנדל״ן יוקרה" },
-  { value: 2000, suffix: "+", label: "לקוחות מרוצים בארץ ובעולם" },
-  { value: 30, suffix: "+", label: "ספקים מובילים מהשורה הראשונה בישראל" },
+  { value: 31, suffix: "", label: "שנות מצוינות בנדל״ן" },
+  { value: 2500, suffix: "+", label: "לקוחות מרוצים בארץ ובעולם" },
+  { value: 50, suffix: "+", label: "נותני שירות וספקים מומלצים" },
 ]
 
 function useCountUp(target: number, run: boolean, duration = 1600) {

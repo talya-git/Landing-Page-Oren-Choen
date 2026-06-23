@@ -39,7 +39,7 @@ const CONTACTS = [
 export function Contact() {
   return (
     <section id="contact" className="relative py-14 md:py-20">
-      <div className="mx-auto max-w-3xl px-5 md:px-8">
+      <div className="mx-auto max-w-5xl px-5 md:px-8">
         <Reveal className="text-center">
           <img src="/media/a-z.png" alt="A-Z by Oren Cohen Group" className="mx-auto h-20 w-auto" />
           <h2 className="mt-7 font-heading text-3xl font-medium leading-tight tracking-tight text-balance text-gold-gradient sm:text-4xl md:text-5xl">
@@ -59,14 +59,14 @@ export function Contact() {
                 href={c.href}
                 target={c.href.startsWith("http") ? "_blank" : undefined}
                 rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="group hover-lift flex flex-col items-center gap-3 rounded-2xl border border-border bg-card/60 px-4 py-7 text-center shadow-lg backdrop-blur-sm hover:-translate-y-1 hover:border-gold/50 hover:shadow-gold/10"
+                className="group hover-lift flex flex-col items-center gap-3 rounded-2xl border border-border bg-card/60 px-6 py-7 text-center shadow-lg backdrop-blur-sm hover:-translate-y-1 hover:border-gold/50 hover:shadow-gold/10"
               >
                 <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold transition-transform duration-500 group-hover:scale-110">
                   <c.icon className="h-7 w-7" />
                 </span>
                 <span className="flex flex-col">
                   <span className="font-heading text-lg font-semibold text-foreground">{c.label}</span>
-                  <span className="mt-1 text-xs text-muted-foreground whitespace-nowrap">{c.sub}</span>
+                  <span className="mt-1 text-sm text-muted-foreground whitespace-nowrap">{c.sub}</span>
                 </span>
               </a>
             ))}

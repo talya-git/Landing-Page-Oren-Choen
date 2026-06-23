@@ -1,12 +1,13 @@
 import { Reveal } from "@/components/reveal"
-import { Users, HelpCircle, ShieldAlert, MapPin, Briefcase } from "lucide-react"
+import { Users, HelpCircle, ShieldAlert, MapPin, Briefcase, DollarSign } from "lucide-react"
 
 const pains = [
-  { icon: Users, text: "העסקה והפעלה של בעלי מקצוע שונים" },
-  { icon: Briefcase, text: "הצורך להיות \u05f4מנהל הפרויקט\u05f4 המקצועי בעצמכם" },
-  { icon: HelpCircle, text: "חוסר וודאות לגבי הנסיון וטיב העבודה" },
+  { icon: Users, text: "התקשרות העסקה והפעלה של בעלי מקצוע שונים" },
+  { icon: Briefcase, text: "הצורך להיות ״מנהל הפרויקט״ המקצועי בעצמכם" },
+  { icon: HelpCircle, text: "חוסר וודאות לגבי הנסיון וטיב העבודה של בעלי המקצוע שבחרתם" },
   { icon: MapPin, text: "החלטות מורכבות שצריך לקבל בזמן אמת" },
-  { icon: ShieldAlert, text: "חוסר ידע בהשוואת מחירים ואיכות מוצרים וכח קנייה מוגבל" },
+  { icon: ShieldAlert, text: "ידע מוגבל וחוסר נסיון בהשוואת מחירים וטיב המוצרים" },
+  { icon: DollarSign, text: "מחירי קנייה ויכולת מיקוח מוגבלת כקונה יחיד לעומת כוח קנייה של גוף מקצועי ומנוסה שרוכש בהיקפים גדולים" },
 ]
 
 export function Problem() {
@@ -42,7 +43,7 @@ export function Problem() {
 
         <Reveal className="mt-14 text-center" delay={120}>
           <p className="font-heading text-xl text-balance text-gold-soft sm:text-2xl">
-            אתם צריכים גוף שאפשר לסמוך עליו- מקצועי, אמין, בעל מוניטין ונסיון מוכח של שלושה עשורים ומאות משפחות מרוצות, כוח קנייה, מוצרים ומחירים מיוחדים שלא תוכלו לקבל במקום אחר.
+            אתם צריכים גוף שאפשר לסמוך עליו- מקצועי, אמין, בעל מוניטין ונסיון מוכח של שלושה עשורים ומאות משפחות מרוצות, כוח קנייה, מוצרים איכותיים ומחירים מיוחדים שלא תוכלו לקבל במקום אחר.
           </p>
         </Reveal>
       </div>

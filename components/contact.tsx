@@ -24,8 +24,8 @@ const CONTACTS = [
   },
   {
     label: "אימייל",
-    sub: "marketing@orencohengroup.com",
-    href: "mailto:marketing@orencohengroup.com",
+    sub: "atoz@orencohengroup.com",
+    href: "mailto:atoz@orencohengroup.com",
     icon: Mail,
   },
   {

@@ -87,7 +87,7 @@ export function Services() {
             <div className="flex h-full flex-col items-center justify-center rounded-2xl border border-gold/30 bg-gold/5 p-7 text-center">
               <img src="/media/a-z.png" alt="A-Z" className="mb-5 h-16 w-auto" />
               <p className="font-heading text-xl font-bold text-balance text-foreground">
-                שוקלים לקנות או שאתם כבר לקוחות שלנו? תנו לנו לטפל בהכול.
+                שוקלים לקנות/לשפץ או שאתם כבר לקוחות שלנו? תנו לנו לטפל בהכול.
               </p>
               <a
                 href="#contact"

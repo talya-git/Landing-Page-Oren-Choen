@@ -66,7 +66,7 @@ export function Contact() {
                 </span>
                 <span className="flex flex-col">
                   <span className="font-heading text-lg font-semibold text-foreground">{c.label}</span>
-                  <span className="mt-1 text-sm text-muted-foreground">{c.sub}</span>
+                  <span className="mt-1 text-sm text-muted-foreground break-all">{c.sub}</span>
                 </span>
               </a>
             ))}
